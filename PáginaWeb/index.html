@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/> 
+<html lang="en">
+<head>
+  <!-- -->
+  <title>Pagina Ventas Terpiel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="estilo.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+
+  <!--  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">-->
+
+  <link rel="stylesheet" href="fontFamilyLato.css">
+  <link rel="stylesheet" href="fontFamilyMonserrat.css">
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+<script src="simpleCart.js"></script>
+	<script>
+		simpleCart.currency({ 
+		    code: "USD" ,
+		    name: "US Dollar" ,
+		    symbol: "USD $" 
+		})
+
+	</script>
+  <style>
+  .carTop{
+	color: #161414;
+	
+  }
+  img.cart{
+	width: 30px;
+	height: 30px;
+  }
+  .headerRow{
+	width: 15%;
+	margin-left: 5%;
+	float: left;
+  }
+  .itemRow{
+	width: 15%;
+	margin-left: 2%;
+	float: left;
+  }
+  .simpleCart_items{
+	  display: grid;
+  }
+  .item-decrement{
+	
+	float: left;
+  }
+  .itemRow > .item-quantity{
+	
+	margin-left: 8px;
+	float: left;
+  }
+  .simpleCart_increment{
+
+	margin-left: 8px;
+  }
+  .simpleCart_empty{
+
+	margin-left: 8%;
+  }
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"3></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+   <a class="navbar-brand" href="#myPage"><img class="logo" src="logo2.png" style="max-width: 100%;" /></a>
+      <ul class="nav navbar-nav navbar-right">
+      	
+        <li><a href="#about">Nosotros</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#store">Tienda</a></li>
+        <li><a href="#shoppingCart">Carrito</a></li>
+        <li><a href="#personalizacion">Personalización</a></li>
+        <li>
+		<img class="cart" src="cart.png" /><br>
+		<span class="simpleCart_quantity carTop"></span><span class="carTop"> Productos - </span><span class="simpleCart_total carTop"></span></li>
+	    <li><a href="javascript:;" class="simpleCart_checkout">Comprar</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<tr>
+   <td>
+      <img src="manufactura2.jpg" alt="Imagen del header" style="max-width: 100%;" />
+   </td>
+</tr>
+  
+
+
+<!-- Container (Seccion Nosotros) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>SOBRE NOSOTROS</h2><br>
+      <h4>Nuestra historia</h4><br>
+      <p>En el año 2001 pasa a ser una microempresa con el nombre de Terpiel, confeccionando artículos publicitarios en materiales como lona, sintéticos y cuero, por medio de intermediarios empezaron a proveer a las empresas Yanbal, Avon, Leonisa y Avianca.</p>
+	  <p>Actualmente es una empresa jurídica. Cuenta con más de 40 empleados y 40 satélites cambio su nombre a Manufacturas Terpiel SAS.</p>
+	  <p>Bernardo González junto a su esposa Teresa Nieto iniciaron en un taller en el barrio Retrepo con una máquina de coser en compañía de dos empleados pero no consolidada como empresa, en el año 1986 fabricando bolsos y billeteras en cuero sin marca registrada, comercializando en Bogotá (Restrepo, 7 de Agosto, centro y chapinero) bajo el nombre de creaciones Edwin.</p>
+
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-signal logo"></span>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Nuestros Valores</h2><br>
+      <h4><strong>Mision:</strong> Brindar soluciones oportunas y efectivas a las necesidades de nuestros clientes en aspectos relacionados con bienes y servicios en el sector de Diseño, manufactura, y materiales de alta calidad para nuestros productos, utilizando los mejores recursos y herramientas en combinación con nuestra experiencia, profesionalismo, talento, compromiso, honestidad y alto sentido de responsabilidad social y profesional.</h4><br>
+      <h4><strong>Vision:</strong> Deseamos convertirnos en una empresa importante y reconocida a nivel nacional e internacional buscando ofrecer a los clientes un producto que se ajuste a su necesidad, que se identifique con el producto y reconozcan a la empresa por sus innovadores diseños y alta calidad.</h4><br>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Seccion de servicios) -->
+<div id="services" class="container-fluid text-center">
+  <h2>Servicios</h2>
+
+  <h4>Que ofrecemos?</h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-off logo-small"></span>
+      <h4>Atencion</h4>
+      <p>Nuestros clientes pueden estar seguros que el personal calificado se encargara de su caso en todo momento, contamos con técnicos, tecnologos y profesionales en las áreas requeridas para nuestros procesos que garantizan la calidad de los productos entregados.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-heart logo-small"></span>
+      <h4>Dedicacion</h4>
+      <p>En TERPIEL cada producto realizado para por ciertos éstandares de calidad para garantizar su óptimo desempeño y calidad de tal forma que logre total satisfacción en el cliente.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-lock logo-small"></span>
+      <h4>Trabajo hecho</h4>
+      <p>Contamos con años de experiencia realizando productos de manufacturación en cuero y todo tipo de materiales para publicidad de empreasas y uso personal de nuestros clientes.</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-leaf logo-small"></span>
+      <h4>Ambiental</h4>
+      <p>Los procesos realizados para la producción de nuestros productos son certificados y verificados con el Ministerio de Medio Ambiente y se garantiza el cuidado al entorno y la conservación de recursos naturales con procesos que han sido mejorados al través de nuestro tiempo en el mercado laboral.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-certificate logo-small"></span>
+      <h4>Certificado</h4>
+      <p>Contamos con certificación en manufactura de téxtiles por parte de INTERTEK y manufactuación en cuero y téxtiles por parte del SENA en todos nuestros empleados encargados del área de producción.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-wrench logo-small"></span>
+      <h4 style="color:#303030;">Trabajo duro</h4>
+      <p>En TERPIEL garantizamos que cada trabajo ha sido realizado con esfuerzo y dedicación para entregar el mejor producto posible a manos del cliente que solicita nuestros servicios.</p>
+    </div>
+  </div>
+
+  <h4>Que buscamos?</h4>
+  <p>Ofrecer a nuestros clientes productos de calidad con variedad de colores, diseños y tamaños.</p>
+  <p>Capacitar a nuestro personal para que genera una manufactura de excelente calidad.</p>
+  	<p>Ampliar la infraestructura, comprar maquinaria y así poder generar empleo.</p>
+</div>
+
+
+<!-- Container (Seccion Tienda) -->
+<div id="store" class="container-fluid">
+<h2 class="text-center">Tienda</h2>
+  <div class="row slideanim">
+
+    <div class="col-sm-2 col-xs-4">
+      <div class="panel panel-default text-center simpleCart_shelfItem">
+        <div class="panel-heading">
+          <h1 class="item_name">Baúl En Cuero</h1>
+        </div>
+        <div class="panel-body">
+          <img class="logo" src="productos/BaulEnCuero.png" style="max-width: 100%;" /> 
+	
+           <!--<p><strong>123</strong> asd</p> Estructura--> 
+        </div>
+        <div class="panel-footer">
+          <h3 class="item_price">$35 USD</h3>
+          <button class="btn btn-lg item_add">Add to cart</button>
+        </div>
+      </div>      
+    </div>  
+
+    <div class="col-sm-2 col-xs-12">
+      <div class="panel panel-default text-center simpleCart_shelfItem">
+        <div class="panel-heading">
+          <h1 class="item_name">Bolsa Practica</h1>
+        </div>
+        <div class="panel-body">
+          <img class="logo" src="productos/BolsaPractica.png" style="max-width: 100%;" /> 
+          <!--<p><strong>123</strong> asd</p> Estructura--> 
+        </div>
+        <div class="panel-footer">
+          <h3 class="item_price">$3 USD</h3>
+          <button class="btn btn-lg item_add">Add to cart</button>
+        </div>
+      </div>      
+    </div> 
+
+    <div class="col-sm-2 col-xs-12">
+      <div class="panel panel-default text-center simpleCart_shelfItem">
+        <div class="panel-heading">
+          <h1 class="item_name">Bolso En Cuero</h1>
+        </div>
+        <div class="panel-body">
+          <img class="logo" src="productos/BolsoEnCuero.png" style="max-width: 100%;" /> 
+          <!--<p><strong>123</strong> asd</p> Estructura--> 
+	  
+        </div>
+        <div class="panel-footer">
+          <h3 class="item_price">$25 USD</h3>
+          <button class="btn btn-lg item_add">Add to cart</button>
+        </div>
+      </div>      
+    </div>    
+
+  <div class="col-sm-2 col-xs-12">
+      <div class="panel panel-default text-center simpleCart_shelfItem">
+        <div class="panel-heading">
+          <h1 class="item_name">Bolso Sintetico</h1>
+        </div>
+        <div class="panel-body">
+          <img class="logo" src="productos/BolsoSinteticoEstampado.png" style="max-width: 100%;" /> 
+          <!--<p><strong>123</strong> asd</p> Estructura--> 
+	  	
+        </div>
+        <div class="panel-footer">
+          <h3 class="item_price">$15 USD</h3>
+          <button class="btn btn-lg item_add">Add to cart</button>
+        </div>
+      </div>      
+    </div>    
+
+  <div class="col-sm-2 col-xs-12">
+      <div class="panel panel-default text-center simpleCart_shelfItem">
+        <div class="panel-heading">
+          <h1 class="item_name">Kit Bolsos 1</h1>
+        </div>
+        <div class="panel-body">
+          <img class="logo" src="productos/KitBolsos1.jpg" style="max-width: 100%;" /> 
+          <!--<p><strong>123</strong> asd</p> Estructura--> 
+	  
+        </div>
+        <div class="panel-footer">
+          <h3 class="item_price">$60 USD</h3>
+          <button class="btn btn-lg item_add">Add to cart</button>
+        </div>
+      </div>      
+    </div>    
+
+  <div class="col-sm-2 col-xs-12">
+      <div class="panel panel-default text-center simpleCart_shelfItem">
+        <div class="panel-heading">
+          <h1 class="item_name">Kit Bolsos 2</h1>
+        </div>
+        <div class="panel-body">
+          <img class="logo" src="productos/KitBolsos2.png" style="max-width: 100%;" /> 
+          <!--<p><strong>123</strong> asd</p> Estructura--> 
+	  	
+        </div>
+        <div class="panel-footer">
+          <h3 class="item_price">$50 USD</h3>
+          <button class="btn btn-lg item_add">Add to cart</button>
+        </div>
+      </div>      
+    </div>    
+ 
+
+  <div class="col-sm-2 col-xs-12">
+      <div class="panel panel-default text-center simpleCart_shelfItem">
+        <div class="panel-heading">
+          <h1 class="item_name">Kit Bolsos 3</h1>
+        </div>
+        <div class="panel-body">
+          <img class="logo" src="productos/KitBolsos3.jpg" style="max-width: 100%;" /> 
+          <!--<p><strong>123</strong> asd</p> Estructura--> 
+	  
+        </div>
+        <div class="panel-footer">
+          <h3 class="item_price">$50 USD</h3>
+          <button class="btn btn-lg item_add">Add to cart</button>
+        </div>
+      </div>      
+    </div> 
+
+
+
+  <div class="col-sm-2 col-xs-12">
+      <div class="panel panel-default text-center simpleCart_shelfItem">
+        <div class="panel-heading">
+          <h1 class="item_name">Manos Libres</h1>
+        </div>
+        <div class="panel-body">
+          <img class="logo" src="productos/ManosLibresGrande.png" style="max-width: 100%;" /> 
+          <!--<p><strong>123</strong> asd</p> Estructura--> 	
+        </div>
+        <div class="panel-footer">
+          <h3 class="item_price">$20 USD</h3>
+          <button class="btn btn-lg item_add">Add to cart</button>
+        </div>
+      </div>      
+    </div>    
+
+  <div class="col-sm-2 col-xs-12">
+      <div class="panel panel-default text-center simpleCart_shelfItem">
+        <div class="panel-heading">
+          <h1 class="item_name">Morral</h1>
+        </div>
+        <div class="panel-body">
+          <img class="logo" src="productos/Morral.png" style="max-width: 100%;" /> 
+          <!--<p><strong>123</strong> asd</p> Estructura--> 
+	 	
+        </div>
+        <div class="panel-footer">
+          <h3 class="item_price">$25 USD</h3>
+          <button class="btn btn-lg item_add">Add to cart</button>
+        </div>
+      </div>      
+    </div>    
+
+  <div class="col-sm-2 col-xs-12">
+      <div class="panel panel-default text-center simpleCart_shelfItem">
+        <div class="panel-heading">
+          <h1 class="item_name">Morral Grande</h1>
+        </div>
+        <div class="panel-body">
+          <img class="logo" src="productos/MorralCampaña.png" style="max-width: 100%;" /> 
+          <!--<p><strong>123</strong> asd</p> Estructura--> 
+	  	
+	</select></p>	
+        </div>
+        <div class="panel-footer">
+          <h3 class="item_price">$35 USD</h3>
+          <button class="btn btn-lg item_add">Add to cart</button>
+        </div>
+      </div>      
+    </div>    
+
+  <div class="col-sm-2 col-xs-12">
+      <div class="panel panel-default text-center simpleCart_shelfItem">
+        <div class="panel-heading">
+          <h1 class="item_name">Portafolio Cuero</h1>
+        </div>
+        <div class="panel-body">
+          <img class="logo" src="productos/PortafolioCuero.png" style="max-width: 100%;" /> 
+          <!--<p><strong>123</strong> asd</p> Estructura--> 
+	  	
+	</select></p>	
+        </div>
+        <div class="panel-footer">
+          <h3 class="item_price">$5 USD</h3>
+          <button class="btn btn-lg item_add">Add to cart</button>
+        </div>
+      </div>      
+    </div>    
+
+  <div class="col-sm-2 col-xs-12">
+      <div class="panel panel-default text-center simpleCart_shelfItem">
+        <div class="panel-heading">
+          <h1 class="item_name">Tula</h1>
+        </div>
+        <div class="panel-body">
+          <img class="logo" src="productos/Tula.png" style="max-width: 100%;" /> 
+          <!--<p><strong>123</strong> asd</p> Estructura--> 
+	  	
+        </div>
+        <div class="panel-footer">
+          <h3 class="item_price">$5 USD</h3>
+          <button class="btn btn-lg item_add">Add to cart</button>
+        </div>
+      </div>      
+    </div>       
+
+</div>
+
+<!-- Container (Seccion carrito de compras) -->
+<div id="shoppingCart" class="container-fluid">
+<div>
+  <h2 class="text-center">Carrito de compras </h2>
+  <h4></h4>
+  <h4>En el siguiente apartado se puede visualizar los items agregados al carrito de compras bajo el siguiente formato.</h4>
+  <h4><p>Nombre
+  	<p>Precio
+  	<p>Cantidad
+	<p>Subtotal</h4>
+    <h4>También permite al cliente tanto eliminar los productos que no desea llevar, modificar cantidades y limpiar el carrito de compras.</h4>
+	<div class="simpleCart_items"></div>
+		<table style="width:100%">
+  			<tr><a href="javascript:;" class="simpleCart_empty">Limpiar carrito de compras</a>
+  			</tr>
+		</table>
+</div>
+
+<!-- Container (Seccion carrito de compras) -->
+<div id="personalizacion" class="container-fluid">
+<div>
+  <h2 class="text-center">Pedidos, personalización de productos </h2>
+  <h4></h4>
+	  <!-- www.123formbuilder.com script begins here -->
+		<iframe allowTransparency="true" style="min-height:1000px; height:inherit; overflow:auto;" width="100%" id="contactform123" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="http://www.123formbuilder.com/my-contact-form-3207798.html">
+		<p>Your browser does not support iframes. The contact form cannot be displayed. Please use another contact method (phone, fax etc)</p>
+		</iframe>
+		<p>Powered by <a class="footerLink13" title="123FormBuilder" href="http://www.123formbuilder.com">123FormBuilder</a> | <a style="font-size:small!important;color:#000000!important; text-decoration:underline!important;" title="Looks like phishing? Report it!" href="http://www.123formbuilder.com/sfnew.php?s=123contactform-52&control119314=$lnk&control190=Report%20abuse" rel="nofollow">Report abuse</a></p><!-- www.123formbuilder.com script ends here -->
+</div>
+
+
+
+
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Pagina desarrollada por ADES S.A.<a href="https://www.ades.com" title="Visita ADES S.A.">www.ades.com</a></p>
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Suavizado al navegar por la pagina
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // comportaminto hash
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // guardar hash
+      var hash = this.hash;
+
+      // usando jQuery para animar 
+      // numero de segundos que toma bajar hasta un lugar especifico
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        
+        window.location.hash = hash;
+      });
+    } 
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
