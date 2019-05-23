@@ -1,5 +1,4 @@
 
-
 variable1 = 5
 variable2 = 6
  
