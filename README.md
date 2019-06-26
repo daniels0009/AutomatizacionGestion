@@ -10,7 +10,7 @@ En el siguiente trabajo se desarrolló un Hola mundo por python para realizar la
 
 * Build
 
-Se implemento un algoritmo base de la serie de fibonacci que captura un número y encuentra su valor de la serie. para su construcción utilizamos Jenkins y lo ponemos en marcha.
+Se implemento un algoritmo base del hola mundo . para su construcción utilizamos Jenkins y lo ponemos en marcha.
 
 * Testing
 
